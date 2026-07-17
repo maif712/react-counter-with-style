@@ -2,10 +2,10 @@
 
 import React from 'react'
 
-const CounterText = () => {
+const CounterText = ({counterNumber}) => {
     return (
         <div className="counter-section-wrapper">
-            <p className="counter-text">0</p>
+            <p className="counter-text">{counterNumber}</p>
             <span className="counter-subtitle">Click count</span>
         </div>
     )
